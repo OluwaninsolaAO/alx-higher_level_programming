@@ -4,10 +4,10 @@ number = random.randint(-100000, 10000)
 temp = str(number)
 num = int(temp[-1])
 str = 'Last digit of ' + temp + ' is ' + str(num)
-if num > 5:
+if number > 5:
     str = str + ' and is greater than 5'
-elif num == 0:
+elif number == 0:
     str = str + ' and is 0'
-elif num < 6 and num != 0:
+elif number < 6 and num != 0:
     str = str + ' and is less than 6 and not 0'
 print(str)
