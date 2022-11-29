@@ -6,13 +6,13 @@ C program and other conventional languages implemented rather a wierd loops
 and control statements syntax. These are all explored in this project, togeth-
 er with functions and how to use them in python programming.
 
-```#!/usr/bin/python3
-
+```
+#!/usr/bin/python3
 def f(msg = 'Hello there! Don\'t be a stranger.', num = 1):
 	if num > 0:
 		print(f"{msg[:12]} Number {num}, {msg[13:]}")
-
-f()```
+f()
+```
 
 
 > _NB: all python scripts/files ```*.py``` are checked to be Pycodestyle_
