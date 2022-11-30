@@ -17,7 +17,8 @@ less lines of code compared with C. More details about python later.
 >
 > I named the file create and make it executable, and I use ```vim``` editor, which makes me 
 > default the editing of the created script to be opened by ```vim```.
-> Calling the script from my sub directories is a bit of work, but still convinient: 
+> Calling the script from my sub directories is a bit of work, but still convinient:
+>
 > For example; to create a python file ```main.py``` from any of my sub-directory:
 >
 > ```$ ../create main.py```
