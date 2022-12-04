@@ -2,7 +2,6 @@
 def multiple_returns(sentence):
     """No add descrptn since: well sentence"""
     if not sentence:
-        pass
+        return (len(sentence), None)
     else:
-        lenght = len(sentence)
-        return (lenght, sentence[0])
+        return (len(sentence), sentence[0])
