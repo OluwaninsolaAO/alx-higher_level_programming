@@ -2,8 +2,8 @@
 def uniq_add(my_list=[]):
     """Adds a series of unique number from a list"""
 
-    new_list = set(my_list)
     result = 0
-    for i in new_list: result += i
+    for i in set(my_list):
+        result += i
 
     return result
