@@ -1,4 +1,4 @@
-# 0x02 Python - More Data Structures: Set, Dictionary
+# 0x04 Python - More Data Structures: Set, Dictionary
 
 __Project Descriptor:__ Exploring Set and Dictionary Data Structures in
 Python Programming Language introduces some more interesting way of collection,

@@ -1,4 +1,4 @@
-# 0x02 Python - Data Structures: List, Tuples
+# 0x03 Python - Data Structures: List, Tuples
 
 __Project Descriptor:__ Unique to Python compared to C, data structures
 includes lists and tuples, lists are simply a sequence of mutable values
