@@ -67,3 +67,27 @@ Test if ``matrix_divided`` returned a new list:
 ... ]
 >>> matrix == matrix_divided(matrix, 3)
 False
+
+
+Case where ``matrix`` is not a list:
+>>> matrix = "School"
+>>> print(matrix_divided(matrix, 3)) #doctest +ELLIPSIS
+Traceback (most recent call last):
+	...
+TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+
+Case where ``matrix`` is not a list of lists #001:
+>>> matrix = []
+>>> print(matrix_divided(matrix, 3)) #doctest +ELLIPSIS
+Traceback (most recent call last):
+	...
+TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+
+Case where ``matrix`` is not a list of lists #002:
+>>> matrix = "School"
+>>> print(matrix_divided(matrix, 3)) #doctest +ELLIPSIS
+Traceback (most recent call last):
+	...
+TypeError: matrix must be a matrix (list of lists) of integers/floats
