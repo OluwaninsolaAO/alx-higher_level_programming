@@ -2,6 +2,7 @@
 """Simple addition of two numbers --
 of type int or float"""
 
+
 def add_integer(a, b=98):
     """Returns a + b"""
 
