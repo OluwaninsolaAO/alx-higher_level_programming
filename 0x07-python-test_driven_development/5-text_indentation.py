@@ -4,6 +4,7 @@ A function that prints a text with 2 new lines after each
 of the following characters '.', '?' and ':'.
 """
 
+
 def text_indentation(text):
     """
     ``text```: the parsed text (required)
