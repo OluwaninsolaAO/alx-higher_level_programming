@@ -1,0 +1,29 @@
+A python programme called say my name
+=======================================
+
+Importing module:
+>>> say_my_name = __import__('3-say_my_name').say_my_name
+
+
+Simple use case:
+>>> say_my_name("John", "Smith")
+My name is John Smith
+
+
+Passing only one of two arguements:
+>>> say_my_name("Bob")
+My name is Bob 
+
+
+Passing integer as arguement:
+>>> say_my_name(12) #doctest +ELLIPSIS
+Traceback (most recent call last):
+	...
+TypeError: first_name must be a string
+
+
+Passing integer as second arguement:
+>>> say_my_name("John", 12) #doctest +ELLIPSIS
+Traceback (most recent call last):
+	...
+TypeError: last_name must be a string

@@ -1,0 +1,36 @@
+A simple function that prints a square with the character #
+The function takes the arguement ``size`` that determines the
+size of the square.
+=========================================================
+
+Import Module:
+>>> print_square = __import__("4-print_square").print_square
+
+
+Simple use case:
+>>> print_square(4)
+####
+####
+####
+####
+
+
+Case of value less than 0:
+>>> print_square(-5) #doctest: +ELLIPSIS
+Traceback (most recent call last):
+	...
+ValueError: size must be >= 0
+
+
+Case of value not int:
+>>> print_square("School")
+Traceback (most recent call last):
+	...
+TypeError: size must be an integer
+
+
+Case of value of type float:
+>>> print_square(3.1416)
+Traceback (most recent call last):
+	...
+TypeError: size must be an integer

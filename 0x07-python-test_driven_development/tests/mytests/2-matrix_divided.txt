@@ -1,0 +1,93 @@
+Divide a matrix
+=======================
+This is a simple programme writting to divie elements of
+matrix with an integer while returning a new list.
+
+Following are lists of tests to perform:
+
+
+Import Module:
+>>> matrix_divided = __import__('2-matrix_divided').matrix_divided
+
+
+Simple Tests with all requirements met:
+>>> matrix = [
+...	[1, 2, 3],
+...	[4, 5, 6]
+... ]
+>>> print(matrix_divided(matrix, 3))
+[[0.33, 0.67, 1.0], [1.33, 1.67, 2.0]]
+
+
+Test types other than integers/floats:
+>>> matrix[0][2] = "School"
+>>> print(matrix_divided(matrix, 3)) #doctest: +ELLIPSIS
+Traceback (most recent call last):
+	...
+TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+
+Testing Matrix of different size
+>>> matrix = [
+...	[1, 2, 3],
+...	[4, 5, 6, 7]
+... ]
+>>> print(matrix_divided(matrix, 3)) #doctest: +ELLIPSIS
+Traceback (most recent call last):
+	...
+TypeError: Each row of the matrix must have the same size
+
+
+Test division by zero:
+>>> matrix = [
+...	[1, 2, 3],
+...	[4, 5, 6]
+... ]
+>>> print(matrix_divided(matrix, 0)) #doctest: +ELLIPSIS
+Traceback (most recent call last):
+	...
+ZeroDivisionError: division by zero
+
+
+Test division by a non-integer value:
+>>> matrix = [
+...	[1, 2, 3],
+...	[4, 5, 6]
+... ]
+>>> print(matrix_divided(matrix, "School")) #doctest: +ELLIPSIS
+Traceback (most recent call last):
+	...
+TypeError: div must be a number
+
+
+Test if ``matrix_divided`` returned a new list:
+>>> matrix = [
+...	[1, 2, 3],
+...	[4, 5, 6]
+... ]
+>>> matrix == matrix_divided(matrix, 3)
+False
+
+
+Case where ``matrix`` is not a list:
+>>> matrix = "School"
+>>> print(matrix_divided(matrix, 3)) #doctest +ELLIPSIS
+Traceback (most recent call last):
+	...
+TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+
+Case where ``matrix`` is not a list of lists #001:
+>>> matrix = []
+>>> print(matrix_divided(matrix, 3)) #doctest +ELLIPSIS
+Traceback (most recent call last):
+	...
+TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+
+Case where ``matrix`` is not a list of lists #002:
+>>> matrix = "School"
+>>> print(matrix_divided(matrix, 3)) #doctest +ELLIPSIS
+Traceback (most recent call last):
+	...
+TypeError: matrix must be a matrix (list of lists) of integers/floats
