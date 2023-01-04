@@ -24,10 +24,16 @@ def matrix_divided(matrix, div):
             type(matrix[0])
         except IndexError:
             raise TypeError(msg1)
-        if type(matrix[0]) != list:
-            raise TypeError(msg1)
-        elif len(matrix[0]) == 0:
-            raise TypeError(msg1)
+
+        for i in range(len(matrix)):
+            try:
+                type(matrix[i])
+            except IndexError:
+                raise TypeError(msg1)
+            if type(matrix[i]) != list:
+                raise TypeError(msg1)
+            elif len(matrix[i]) == 0:
+                raise TypeError(msg1)
 
     for i in matrix:
         for j in i:
