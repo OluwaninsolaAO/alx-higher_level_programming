@@ -12,4 +12,7 @@ class BaseGeometry:
     area
     """
     def area(self):
+        """
+        Raises a warning
+        """
         raise Exception("area() is not implemeneted")
