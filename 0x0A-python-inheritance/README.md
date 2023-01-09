@@ -29,11 +29,11 @@ class User(Base):
 	"""
 	User is defined to be a sub class of the class Base
 	hence, providing access to call on the __init__ function
-	from the class Base using the ``global()`` function
+	from the class Base using the ``super()`` function
 	"""
 
 	def __init__(self):
-		global.__init__()
+		super().__init__()
 	
 	def user_id(self):
 		print("User Unique ID is: {}".format(self.id))
