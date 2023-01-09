@@ -15,4 +15,4 @@ class BaseGeometry:
         """
         Raises a warning
         """
-        raise Exception("area() is not implemeneted")
+        raise Exception("area() is not implemented")
