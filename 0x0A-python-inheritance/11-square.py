@@ -12,7 +12,6 @@ class Square(Rectangle):
     A class Square being an extension or a
     sub-class of Rectangle
     """
-    __size = int()
 
     def __init__(self, size):
         """instantiation of the member of the class"""
