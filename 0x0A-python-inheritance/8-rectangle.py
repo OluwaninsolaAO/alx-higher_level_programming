@@ -13,13 +13,13 @@ class Rectangle(BaseGeometry):
     Rectangle class, being a sub-class or a child-class
     of BaseGeomertr
     """
-    _width = int()
-    _height = int()
 
     def __init__(self, width, height):
         """
         init method -- called on creation of new member
         the class
         """
-        BaseGeometry.integer_validator(self, "width", width)
-        BaseGeometry.integer_validator(self, "height", height)
+        super().integer_validator("width", width)
+        self.__width = width
+        super().integer_validator("height", height)
+        self.__height = height
