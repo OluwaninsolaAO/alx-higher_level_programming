@@ -1,0 +1,29 @@
+A test file for BaseGeometry Class assuming ``name``
+ppositional arguement will always be a string
+=====================================
+
+Import the module:
+>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
+Testing with no exceptions raised:
+>>> bg = BaseGeometry()
+>>> bg.integer_validator("my_int", 12)
+>>> bg.integer_validator("width", 89)
+
+Type Error exception with object type string:
+>>> bg.integer_validator("name", "John") #doctest: +ELLIPSIS
+Traceback (most recent call last):
+	...
+TypeError: name must be an integer
+
+Type Error exception with object type boolean:
+>>> bg.integer_validator("name", True) #doctest: +ELLIPSIS
+Traceback (most recent call last):
+	...
+TypeError: name must be an integer
+
+Value Error exception with a negative number:
+>>> bg.integer_validator("name", -123) #doctest: +ELLIPSIS
+Traceback (most recent call last):
+	...
+ValueError: name must be greater than 0
