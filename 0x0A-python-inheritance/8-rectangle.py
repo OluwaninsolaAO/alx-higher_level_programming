@@ -21,5 +21,5 @@ class Rectangle(BaseGeometry):
         init method -- called on creation of new member
         the class
         """
-        super().integer_validator("width", width)
-        super().integer_validator("height", height)
+        BaseGeometry.integer_validator(self, "width", width)
+        BaseGeometry.integer_validator(self, "height", height)
