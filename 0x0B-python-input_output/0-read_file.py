@@ -5,9 +5,6 @@ and prints it to standard output.
 """
 
 
-import os
-
-
 def read_file(filename=""):
     """
     ``read_file`` reads a content of a file
