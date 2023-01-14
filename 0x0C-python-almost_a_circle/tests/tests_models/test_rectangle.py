@@ -8,7 +8,7 @@ import unittest
 from models.rectangle import Rectangle
 
 
-class Test_Rectangle(unittest.TestCase):
+class Test_Rectangle_init_(unittest.TestCase):
     """
     This class test ``Rectangle`` Class
     with its attributes.
@@ -128,3 +128,14 @@ class Test_Rectangle(unittest.TestCase):
     def test_neg_y(self):
         with self.assertRaisesRegex(ValueError, 'y must be >= 0'):
             Rectangle(10, 5, y=-10)
+
+class Test_Rectangle_Area_Method(unittest.TestCase):
+    """
+    This class tests the area method of the
+    Rectangle Class.
+    """
+
+    def test_area(self):
+        r1 = Rectangle(10, 5)
+
+        self.assertEqual(r1.area(), 10 * 5)
