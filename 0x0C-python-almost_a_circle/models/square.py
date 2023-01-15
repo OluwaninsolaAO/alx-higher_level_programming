@@ -48,3 +48,34 @@ class Square(Rectangle):
         """
         __str = "[Square] ({}) {}/{} - {}"
         return __str.format(self.id, self.x, self.y, self.width)
+
+    def update(self, *args, **kwargs):
+        """
+        Updates the class instances' attributes with a
+        no-keyword arguement, the position is as thus:
+        - id
+        - size: will be splitted into width and height
+        - x
+        - y
+        """
+        attr = len(args)
+        if attr == 0:
+            if kwargs is not None:
+                for key, value in kwargs.items():
+                    if key == "id":
+                        self.id = value
+                    if key == "size":
+                        self.size = value
+                    if key == "x":
+                        self.x = value
+                    if key == "y":
+                        self.y = value
+
+        if attr >= 1:
+            self.id = args[0]
+        if attr >= 2:
+            self.size = args[1]
+        if attr >= 3:
+            self.x = args[2]
+        if attr >= 4:
+            self.y = args[3]
