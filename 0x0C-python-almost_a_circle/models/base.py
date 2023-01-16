@@ -8,6 +8,7 @@ following attributes:
 import json
 import csv
 
+
 class Base:
     """
     ``Base`` will have a class attribute ``__nb_objects``
