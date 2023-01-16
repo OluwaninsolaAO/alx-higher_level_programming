@@ -1,0 +1,3 @@
+#!/bin/bash
+pycodestyle ./models/*.py -v
+pycodestyle ./tests/tests_models/*.py -v
