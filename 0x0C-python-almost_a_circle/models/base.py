@@ -69,3 +69,13 @@ class Base:
         else:
             return json.loads(json_string)
 
+    @classmethod
+    def create(cls, **dictionary):
+        """
+        Returns an instance with all attributes of the instance
+        set, ``dictionary`` is a dictionary describing the
+        attributes of the instance.
+        """
+        dummy = cls(1, 1)
+        dummy.update(**dictionary)
+        return dummy
