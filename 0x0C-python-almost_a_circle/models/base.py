@@ -25,6 +25,7 @@ class Base:
         else:
             self.id = id
 
+    @staticmethod
     def to_json_string(list_dictionaries):
         """
         Returns a JSON string representation of
@@ -51,3 +52,20 @@ class Base:
             else:
                 list_dict = [obj.to_dictionary() for obj in list_objs]
                 fi.write(Base.to_json_string(list_dict))
+
+    @staticmethod
+    def from_json_string(json_string):
+        """
+        Returns python data structure of ``json_string`` arguement
+        passed into the method:
+        - ``json_string`` being a json string representation
+        of dictionaries.
+        - if ``json_string`` is None or empty, the method returns
+        an empty list otherwise, return the list represented by
+        ``json_string``.
+        """
+        if json_string is None or json_string == "[]":
+            return []
+        else:
+            return json.loads(json_string)
+

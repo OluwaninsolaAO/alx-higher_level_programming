@@ -129,6 +129,7 @@ class Test_Rectangle_init_(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'y must be >= 0'):
             Rectangle(10, 5, y=-10)
 
+
 class Test_Rectangle_Area_Method(unittest.TestCase):
     """
     This class tests the area method of the
