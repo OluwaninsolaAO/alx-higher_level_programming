@@ -6,7 +6,7 @@ following attributes:
     start.
 """
 import json
-
+import csv
 
 class Base:
     """
@@ -96,4 +96,42 @@ class Base:
                 return_list.append(instance)
             return return_list
         except FileNotFoundError:
+            return []
+
+    @classmethod
+    def save_to_file_csv(cls, list_objs):
+        """
+        Write the CSV serialization of a list of objects to a file.
+        ``list_objs`` being a list of obj instance of the class.
+        """
+        filename = cls.__name__ + ".csv"
+        with open(filename, "w", newline="", encoding="utf-8") as fi:
+            if list_objs is None or list_objs == []:
+                fi.write("[]")
+            else:
+                if cls.__name__ == "Rectangle":
+                    fieldnames = ["id", "width", "height", "x", "y"]
+                else:
+                    fieldnames = ["id", "size", "x", "y"]
+                writer = csv.DictWriter(fi, fieldnames=fieldnames)
+                for obj in list_objs:
+                    writer.writerow(obj.to_dictionary())
+
+    @classmethod
+    def load_from_file_csv(cls):
+        """
+        Return a list of classes instantiated from a CSV file.
+        """
+        filename = cls.__name__ + ".csv"
+        try:
+            with open(filename, "r", newline="", encoding="utf-8") as fi:
+                if cls.__name__ == "Rectangle":
+                    fieldnames = ["id", "width", "height", "x", "y"]
+                else:
+                    fieldnames = ["id", "size", "x", "y"]
+                list_dicts = csv.DictReader(fi, fieldnames=fieldnames)
+                list_dicts = [dict([k, int(v)] for k, v in d.items())
+                              for d in list_dicts]
+                return [cls.create(**d) for d in list_dicts]
+        except IOError:
             return []
