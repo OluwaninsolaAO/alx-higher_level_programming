@@ -7,8 +7,7 @@ SQL Style Guide were also considered for all the sql queries within
 this directory following recommended common practices.
 
 ```
-/* C Styled Comments are allowed */
--- This comment is also fine.
+-- This is a comment.
 
 SELECT first_name AS fn, last_name AS ln, staff_id AS sid
  WHERE sid BETWEEN 100 AND 250
