@@ -1,7 +1,7 @@
 -- uses the hbtn_0d_tvshows database to list all genres not
 -- linked to the show Dexter.
 
-SELECT tv_genres.name AS name
+SELECT DISTINCT tv_genres.name AS name
   FROM tv_genres
 EXCEPT
 SELECT tv_genres.name AS name
