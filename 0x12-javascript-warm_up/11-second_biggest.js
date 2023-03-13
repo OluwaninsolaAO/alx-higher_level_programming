@@ -2,7 +2,7 @@
 
 let arr = process.argv.slice(2);
 arr.sort();
-arr = [... new Set(arr)];
+arr = [...new Set(arr)];
 
 if (arr.length <= 1) {
   console.log(0);
