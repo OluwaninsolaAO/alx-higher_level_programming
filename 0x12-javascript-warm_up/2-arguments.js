@@ -3,9 +3,9 @@
 const argv = process.argv.slice(2);
 
 if (argv.length > 1) {
-  console.log('Arguements found');
+  console.log('Arguments found');
 } else if (argv.length === 1) {
-  console.log('Arguement fount');
+  console.log('Argument fount');
 } else {
   console.log('No argument');
 }
