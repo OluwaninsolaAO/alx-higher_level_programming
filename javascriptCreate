@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# This script creates a blank Javascript file and makes it
+# Executable from the passed positional arguements.
+
+if [ $# -eq 1 ];
+then
+	touch $1; chmod u+x $1;
+	echo "#!/usr/bin/node" > $1;
+	vim $1;
+fi
