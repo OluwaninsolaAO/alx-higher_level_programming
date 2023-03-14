@@ -10,4 +10,4 @@ exports.nbOccurences = function (list, searchElement) {
     }
   }
   return (num);
-}
+};
