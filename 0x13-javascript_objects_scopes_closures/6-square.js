@@ -3,7 +3,7 @@
 const oldSquare = require('./5-square');
 
 module.exports = class Square extends oldSquare {
-  charPrint(c) {
+  charPrint (c) {
     let sym = 'X';
     let level;
     let i;
@@ -20,4 +20,4 @@ module.exports = class Square extends oldSquare {
       console.log(sym.repeat(this.width));
     }
   }
-}
+};
