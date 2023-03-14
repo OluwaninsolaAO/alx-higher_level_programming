@@ -7,7 +7,7 @@ for (let key in dict) {
   if (dict[key] in obj) {
     obj[dict[key]].push(key);
   } else {
-  obj[dict[key]] = [key];
+    obj[dict[key]] = [key];
   }
 }
 
