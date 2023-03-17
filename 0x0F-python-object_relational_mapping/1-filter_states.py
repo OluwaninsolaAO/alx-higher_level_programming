@@ -9,7 +9,7 @@ if __name__ == '__main__':
 
     _, user, passwd, db = sys.argv
     db = MySQLdb.connect(host='localhost', port=3306, user=user,
-                         password=passwd, db=db)
+            password=passwd, db=db)
     cur = db.cursor()
     cur.execute("SELECT * FROM states WHERE BINARY name LIKE 'N%'")
     for row in cur.fetchall():
