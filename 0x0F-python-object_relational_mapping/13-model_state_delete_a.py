@@ -15,6 +15,8 @@ if __name__ == '__main__':
     Session = sessionmaker(bind=engine)
     session = Session()
 
-    session.query(State).filter(State.name.ilike('%a%')).delete()
+    objs = session.query(State).filter(State.name.ilike('%a%')).all()
+    for obj in objs:
+        session.delete(obj)
     session.commit()
     session.close()
