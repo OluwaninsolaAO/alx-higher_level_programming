@@ -10,8 +10,8 @@ if __name__ == '__main__':
     from sqlalchemy.orm import sessionmaker
 
     _, user, passwd, db = sys.argv
-    engine = create_engine('mysql+mysqldb://{}:{}@localhost/{}'.format(user,
-                           passwd, db))
+    engine = create_engine('mysql+mysqldb://{}:{}@localhost:3306/{}'
+                           .format(user, passwd, db))
     Session = sessionmaker(bind=engine)
     session = Session()
 
