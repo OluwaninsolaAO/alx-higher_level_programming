@@ -16,7 +16,8 @@ if __name__ == '__main__':
     Session = sessionmaker(bind=engine)
     session = Session()
 
-    for result in session.query(State).all():
+    results = session.query(State).all()
+    for result in results:
         print('{}: {}'.format(result.id, result.name))
         for sub in result.cities:
             # print('\t{}: {}'.format(city.id, city.name))
