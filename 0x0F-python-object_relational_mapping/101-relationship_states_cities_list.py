@@ -16,11 +16,9 @@ if __name__ == '__main__':
     Session = sessionmaker(bind=engine)
     session = Session()
 
-    results = session.query(State)
-    for result in results:
-        print('{}: {}'.format(result.id, result.name))
-        for sub in result.cities:
-            # print('\t{}: {}'.format(city.id, city.name))
-            print("\t"f"{sub.id}: {sub.name}")
+    for state in session.query(State).all():
+        print('{}: {}'.format(state.id, state.name))
+        for city in state.cities:
+            print('    {}: {}'.format(city.id, city.name))
 
     session.close()
