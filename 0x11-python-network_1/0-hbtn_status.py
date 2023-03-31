@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" A Python script that fetches from 
+""" A Python script that fetches from
 https://alx-intranet.hbtn.io/status """
 import urllib.request
 
