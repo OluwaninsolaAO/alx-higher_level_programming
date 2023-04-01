@@ -19,4 +19,4 @@ if __name__ == '__main__':
             print('{}: {}'.format(sha, name))
 
     except IndexError:
-        print('None')
+        pass
