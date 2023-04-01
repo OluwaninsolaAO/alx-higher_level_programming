@@ -6,7 +6,7 @@ if __name__ == '__main__':
     import sys
     import requests
     import json
-    
+
     username, passwd = sys.argv[1:]
     url = 'https://api.github.com/users/' + username
     headers = {'Accept': 'application/vnd.github+json',
