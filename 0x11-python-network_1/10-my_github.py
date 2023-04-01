@@ -13,4 +13,7 @@ if __name__ == '__main__':
                'Authorization': 'Bearer ' + passwd}
     r = requests.get(url, headers=headers)
     user = json.loads(r.text)
-    print(user['id'])
+    try:
+        print(user['id'])
+    except KeyError:
+        print('None')
