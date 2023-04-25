@@ -1,6 +1,5 @@
 #!/usr/bin/node
 
-const { error } = require('console');
 const request = require('request');
 
 if (process.argv.length !== 3) {
