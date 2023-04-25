@@ -5,8 +5,8 @@ const request = require('request');
 if (process.argv.length !== 3) {
   process.exit();
 }
-
-const target = 'https://swapi-api.alx-tools.com/api/people/18/';
+const id = 18;
+const target = `https://swapi-api.alx-tools.com/api/people/${id}/`;
 
 request(process.argv[2], function (error, response, body) {
   if (error) {
