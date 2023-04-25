@@ -1,0 +1,664 @@
+[
+  {
+    title: 'A New Hope',
+    episode_id: 4,
+    opening_crawl: 'It is a period of civil war.\r\n' +
+      'Rebel spaceships, striking\r\n' +
+      'from a hidden base, have won\r\n' +
+      'their first victory against\r\n' +
+      'the evil Galactic Empire.\r\n' +
+      '\r\n' +
+      'During the battle, Rebel\r\n' +
+      'spies managed to steal secret\r\n' +
+      "plans to the Empire's\r\n" +
+      'ultimate weapon, the DEATH\r\n' +
+      'STAR, an armored space\r\n' +
+      'station with enough power\r\n' +
+      'to destroy an entire planet.\r\n' +
+      '\r\n' +
+      "Pursued by the Empire's\r\n" +
+      'sinister agents, Princess\r\n' +
+      'Leia races home aboard her\r\n' +
+      'starship, custodian of the\r\n' +
+      'stolen plans that can save her\r\n' +
+      'people and restore\r\n' +
+      'freedom to the galaxy....',
+    director: 'George Lucas',
+    producer: 'Gary Kurtz, Rick McCallum',
+    release_date: '1977-05-25',
+    characters: [
+      'https://swapi-api.alx-tools.com/api/people/1/',
+      'https://swapi-api.alx-tools.com/api/people/2/',
+      'https://swapi-api.alx-tools.com/api/people/3/',
+      'https://swapi-api.alx-tools.com/api/people/4/',
+      'https://swapi-api.alx-tools.com/api/people/5/',
+      'https://swapi-api.alx-tools.com/api/people/6/',
+      'https://swapi-api.alx-tools.com/api/people/7/',
+      'https://swapi-api.alx-tools.com/api/people/8/',
+      'https://swapi-api.alx-tools.com/api/people/9/',
+      'https://swapi-api.alx-tools.com/api/people/10/',
+      'https://swapi-api.alx-tools.com/api/people/12/',
+      'https://swapi-api.alx-tools.com/api/people/13/',
+      'https://swapi-api.alx-tools.com/api/people/14/',
+      'https://swapi-api.alx-tools.com/api/people/15/',
+      'https://swapi-api.alx-tools.com/api/people/16/',
+      'https://swapi-api.alx-tools.com/api/people/18/',
+      'https://swapi-api.alx-tools.com/api/people/19/',
+      'https://swapi-api.alx-tools.com/api/people/81/'
+    ],
+    planets: [
+      'https://swapi-api.alx-tools.com/api/planets/1/',
+      'https://swapi-api.alx-tools.com/api/planets/2/',
+      'https://swapi-api.alx-tools.com/api/planets/3/'
+    ],
+    starships: [
+      'https://swapi-api.alx-tools.com/api/starships/2/',
+      'https://swapi-api.alx-tools.com/api/starships/3/',
+      'https://swapi-api.alx-tools.com/api/starships/5/',
+      'https://swapi-api.alx-tools.com/api/starships/9/',
+      'https://swapi-api.alx-tools.com/api/starships/10/',
+      'https://swapi-api.alx-tools.com/api/starships/11/',
+      'https://swapi-api.alx-tools.com/api/starships/12/',
+      'https://swapi-api.alx-tools.com/api/starships/13/'
+    ],
+    vehicles: [
+      'https://swapi-api.alx-tools.com/api/vehicles/4/',
+      'https://swapi-api.alx-tools.com/api/vehicles/6/',
+      'https://swapi-api.alx-tools.com/api/vehicles/7/',
+      'https://swapi-api.alx-tools.com/api/vehicles/8/'
+    ],
+    species: [
+      'https://swapi-api.alx-tools.com/api/species/1/',
+      'https://swapi-api.alx-tools.com/api/species/2/',
+      'https://swapi-api.alx-tools.com/api/species/3/',
+      'https://swapi-api.alx-tools.com/api/species/4/',
+      'https://swapi-api.alx-tools.com/api/species/5/'
+    ],
+    created: '2014-12-10T14:23:31.880000Z',
+    edited: '2014-12-20T19:49:45.256000Z',
+    url: 'https://swapi-api.alx-tools.com/api/films/1/'
+  },
+  {
+    title: 'The Empire Strikes Back',
+    episode_id: 5,
+    opening_crawl: 'It is a dark time for the\r\n' +
+      'Rebellion. Although the Death\r\n' +
+      'Star has been destroyed,\r\n' +
+      'Imperial troops have driven the\r\n' +
+      'Rebel forces from their hidden\r\n' +
+      'base and pursued them across\r\n' +
+      'the galaxy.\r\n' +
+      '\r\n' +
+      'Evading the dreaded Imperial\r\n' +
+      'Starfleet, a group of freedom\r\n' +
+      'fighters led by Luke Skywalker\r\n' +
+      'has established a new secret\r\n' +
+      'base on the remote ice world\r\n' +
+      'of Hoth.\r\n' +
+      '\r\n' +
+      'The evil lord Darth Vader,\r\n' +
+      'obsessed with finding young\r\n' +
+      'Skywalker, has dispatched\r\n' +
+      'thousands of remote probes into\r\n' +
+      'the far reaches of space....',
+    director: 'Irvin Kershner',
+    producer: 'Gary Kurtz, Rick McCallum',
+    release_date: '1980-05-17',
+    characters: [
+      'https://swapi-api.alx-tools.com/api/people/1/',
+      'https://swapi-api.alx-tools.com/api/people/2/',
+      'https://swapi-api.alx-tools.com/api/people/3/',
+      'https://swapi-api.alx-tools.com/api/people/4/',
+      'https://swapi-api.alx-tools.com/api/people/5/',
+      'https://swapi-api.alx-tools.com/api/people/10/',
+      'https://swapi-api.alx-tools.com/api/people/13/',
+      'https://swapi-api.alx-tools.com/api/people/14/',
+      'https://swapi-api.alx-tools.com/api/people/18/',
+      'https://swapi-api.alx-tools.com/api/people/20/',
+      'https://swapi-api.alx-tools.com/api/people/21/',
+      'https://swapi-api.alx-tools.com/api/people/22/',
+      'https://swapi-api.alx-tools.com/api/people/23/',
+      'https://swapi-api.alx-tools.com/api/people/24/',
+      'https://swapi-api.alx-tools.com/api/people/25/',
+      'https://swapi-api.alx-tools.com/api/people/26/'
+    ],
+    planets: [
+      'https://swapi-api.alx-tools.com/api/planets/4/',
+      'https://swapi-api.alx-tools.com/api/planets/5/',
+      'https://swapi-api.alx-tools.com/api/planets/6/',
+      'https://swapi-api.alx-tools.com/api/planets/27/'
+    ],
+    starships: [
+      'https://swapi-api.alx-tools.com/api/starships/3/',
+      'https://swapi-api.alx-tools.com/api/starships/10/',
+      'https://swapi-api.alx-tools.com/api/starships/11/',
+      'https://swapi-api.alx-tools.com/api/starships/12/',
+      'https://swapi-api.alx-tools.com/api/starships/15/',
+      'https://swapi-api.alx-tools.com/api/starships/17/',
+      'https://swapi-api.alx-tools.com/api/starships/21/',
+      'https://swapi-api.alx-tools.com/api/starships/22/',
+      'https://swapi-api.alx-tools.com/api/starships/23/'
+    ],
+    vehicles: [
+      'https://swapi-api.alx-tools.com/api/vehicles/8/',
+      'https://swapi-api.alx-tools.com/api/vehicles/14/',
+      'https://swapi-api.alx-tools.com/api/vehicles/16/',
+      'https://swapi-api.alx-tools.com/api/vehicles/18/',
+      'https://swapi-api.alx-tools.com/api/vehicles/19/',
+      'https://swapi-api.alx-tools.com/api/vehicles/20/'
+    ],
+    species: [
+      'https://swapi-api.alx-tools.com/api/species/1/',
+      'https://swapi-api.alx-tools.com/api/species/2/',
+      'https://swapi-api.alx-tools.com/api/species/3/',
+      'https://swapi-api.alx-tools.com/api/species/6/',
+      'https://swapi-api.alx-tools.com/api/species/7/'
+    ],
+    created: '2014-12-12T11:26:24.656000Z',
+    edited: '2014-12-15T13:07:53.386000Z',
+    url: 'https://swapi-api.alx-tools.com/api/films/2/'
+  },
+  {
+    title: 'Return of the Jedi',
+    episode_id: 6,
+    opening_crawl: 'Luke Skywalker has returned to\r\n' +
+      'his home planet of Tatooine in\r\n' +
+      'an attempt to rescue his\r\n' +
+      'friend Han Solo from the\r\n' +
+      'clutches of the vile gangster\r\n' +
+      'Jabba the Hutt.\r\n' +
+      '\r\n' +
+      'Little does Luke know that the\r\n' +
+      'GALACTIC EMPIRE has secretly\r\n' +
+      'begun construction on a new\r\n' +
+      'armored space station even\r\n' +
+      'more powerful than the first\r\n' +
+      'dreaded Death Star.\r\n' +
+      '\r\n' +
+      'When completed, this ultimate\r\n' +
+      'weapon will spell certain doom\r\n' +
+      'for the small band of rebels\r\n' +
+      'struggling to restore freedom\r\n' +
+      'to the galaxy...',
+    director: 'Richard Marquand',
+    producer: 'Howard G. Kazanjian, George Lucas, Rick McCallum',
+    release_date: '1983-05-25',
+    characters: [
+      'https://swapi-api.alx-tools.com/api/people/1/',
+      'https://swapi-api.alx-tools.com/api/people/2/',
+      'https://swapi-api.alx-tools.com/api/people/3/',
+      'https://swapi-api.alx-tools.com/api/people/4/',
+      'https://swapi-api.alx-tools.com/api/people/5/',
+      'https://swapi-api.alx-tools.com/api/people/10/',
+      'https://swapi-api.alx-tools.com/api/people/13/',
+      'https://swapi-api.alx-tools.com/api/people/14/',
+      'https://swapi-api.alx-tools.com/api/people/16/',
+      'https://swapi-api.alx-tools.com/api/people/18/',
+      'https://swapi-api.alx-tools.com/api/people/20/',
+      'https://swapi-api.alx-tools.com/api/people/21/',
+      'https://swapi-api.alx-tools.com/api/people/22/',
+      'https://swapi-api.alx-tools.com/api/people/25/',
+      'https://swapi-api.alx-tools.com/api/people/27/',
+      'https://swapi-api.alx-tools.com/api/people/28/',
+      'https://swapi-api.alx-tools.com/api/people/29/',
+      'https://swapi-api.alx-tools.com/api/people/30/',
+      'https://swapi-api.alx-tools.com/api/people/31/',
+      'https://swapi-api.alx-tools.com/api/people/45/'
+    ],
+    planets: [
+      'https://swapi-api.alx-tools.com/api/planets/1/',
+      'https://swapi-api.alx-tools.com/api/planets/5/',
+      'https://swapi-api.alx-tools.com/api/planets/7/',
+      'https://swapi-api.alx-tools.com/api/planets/8/',
+      'https://swapi-api.alx-tools.com/api/planets/9/'
+    ],
+    starships: [
+      'https://swapi-api.alx-tools.com/api/starships/2/',
+      'https://swapi-api.alx-tools.com/api/starships/3/',
+      'https://swapi-api.alx-tools.com/api/starships/10/',
+      'https://swapi-api.alx-tools.com/api/starships/11/',
+      'https://swapi-api.alx-tools.com/api/starships/12/',
+      'https://swapi-api.alx-tools.com/api/starships/15/',
+      'https://swapi-api.alx-tools.com/api/starships/17/',
+      'https://swapi-api.alx-tools.com/api/starships/22/',
+      'https://swapi-api.alx-tools.com/api/starships/23/',
+      'https://swapi-api.alx-tools.com/api/starships/27/',
+      'https://swapi-api.alx-tools.com/api/starships/28/',
+      'https://swapi-api.alx-tools.com/api/starships/29/'
+    ],
+    vehicles: [
+      'https://swapi-api.alx-tools.com/api/vehicles/8/',
+      'https://swapi-api.alx-tools.com/api/vehicles/16/',
+      'https://swapi-api.alx-tools.com/api/vehicles/18/',
+      'https://swapi-api.alx-tools.com/api/vehicles/19/',
+      'https://swapi-api.alx-tools.com/api/vehicles/24/',
+      'https://swapi-api.alx-tools.com/api/vehicles/25/',
+      'https://swapi-api.alx-tools.com/api/vehicles/26/',
+      'https://swapi-api.alx-tools.com/api/vehicles/30/'
+    ],
+    species: [
+      'https://swapi-api.alx-tools.com/api/species/1/',
+      'https://swapi-api.alx-tools.com/api/species/2/',
+      'https://swapi-api.alx-tools.com/api/species/3/',
+      'https://swapi-api.alx-tools.com/api/species/5/',
+      'https://swapi-api.alx-tools.com/api/species/6/',
+      'https://swapi-api.alx-tools.com/api/species/8/',
+      'https://swapi-api.alx-tools.com/api/species/9/',
+      'https://swapi-api.alx-tools.com/api/species/10/',
+      'https://swapi-api.alx-tools.com/api/species/15/'
+    ],
+    created: '2014-12-18T10:39:33.255000Z',
+    edited: '2014-12-20T09:48:37.462000Z',
+    url: 'https://swapi-api.alx-tools.com/api/films/3/'
+  },
+  {
+    title: 'The Phantom Menace',
+    episode_id: 1,
+    opening_crawl: 'Turmoil has engulfed the\r\n' +
+      'Galactic Republic. The taxation\r\n' +
+      'of trade routes to outlying star\r\n' +
+      'systems is in dispute.\r\n' +
+      '\r\n' +
+      'Hoping to resolve the matter\r\n' +
+      'with a blockade of deadly\r\n' +
+      'battleships, the greedy Trade\r\n' +
+      'Federation has stopped all\r\n' +
+      'shipping to the small planet\r\n' +
+      'of Naboo.\r\n' +
+      '\r\n' +
+      'While the Congress of the\r\n' +
+      'Republic endlessly debates\r\n' +
+      'this alarming chain of events,\r\n' +
+      'the Supreme Chancellor has\r\n' +
+      'secretly dispatched two Jedi\r\n' +
+      'Knights, the guardians of\r\n' +
+      'peace and justice in the\r\n' +
+      'galaxy, to settle the conflict....',
+    director: 'George Lucas',
+    producer: 'Rick McCallum',
+    release_date: '1999-05-19',
+    characters: [
+      'https://swapi-api.alx-tools.com/api/people/2/',
+      'https://swapi-api.alx-tools.com/api/people/3/',
+      'https://swapi-api.alx-tools.com/api/people/10/',
+      'https://swapi-api.alx-tools.com/api/people/11/',
+      'https://swapi-api.alx-tools.com/api/people/16/',
+      'https://swapi-api.alx-tools.com/api/people/20/',
+      'https://swapi-api.alx-tools.com/api/people/21/',
+      'https://swapi-api.alx-tools.com/api/people/32/',
+      'https://swapi-api.alx-tools.com/api/people/33/',
+      'https://swapi-api.alx-tools.com/api/people/34/',
+      'https://swapi-api.alx-tools.com/api/people/35/',
+      'https://swapi-api.alx-tools.com/api/people/36/',
+      'https://swapi-api.alx-tools.com/api/people/37/',
+      'https://swapi-api.alx-tools.com/api/people/38/',
+      'https://swapi-api.alx-tools.com/api/people/39/',
+      'https://swapi-api.alx-tools.com/api/people/40/',
+      'https://swapi-api.alx-tools.com/api/people/41/',
+      'https://swapi-api.alx-tools.com/api/people/42/',
+      'https://swapi-api.alx-tools.com/api/people/43/',
+      'https://swapi-api.alx-tools.com/api/people/44/',
+      'https://swapi-api.alx-tools.com/api/people/46/',
+      'https://swapi-api.alx-tools.com/api/people/47/',
+      'https://swapi-api.alx-tools.com/api/people/48/',
+      'https://swapi-api.alx-tools.com/api/people/49/',
+      'https://swapi-api.alx-tools.com/api/people/50/',
+      'https://swapi-api.alx-tools.com/api/people/51/',
+      'https://swapi-api.alx-tools.com/api/people/52/',
+      'https://swapi-api.alx-tools.com/api/people/53/',
+      'https://swapi-api.alx-tools.com/api/people/54/',
+      'https://swapi-api.alx-tools.com/api/people/55/',
+      'https://swapi-api.alx-tools.com/api/people/56/',
+      'https://swapi-api.alx-tools.com/api/people/57/',
+      'https://swapi-api.alx-tools.com/api/people/58/',
+      'https://swapi-api.alx-tools.com/api/people/59/'
+    ],
+    planets: [
+      'https://swapi-api.alx-tools.com/api/planets/1/',
+      'https://swapi-api.alx-tools.com/api/planets/8/',
+      'https://swapi-api.alx-tools.com/api/planets/9/'
+    ],
+    starships: [
+      'https://swapi-api.alx-tools.com/api/starships/31/',
+      'https://swapi-api.alx-tools.com/api/starships/32/',
+      'https://swapi-api.alx-tools.com/api/starships/39/',
+      'https://swapi-api.alx-tools.com/api/starships/40/',
+      'https://swapi-api.alx-tools.com/api/starships/41/'
+    ],
+    vehicles: [
+      'https://swapi-api.alx-tools.com/api/vehicles/33/',
+      'https://swapi-api.alx-tools.com/api/vehicles/34/',
+      'https://swapi-api.alx-tools.com/api/vehicles/35/',
+      'https://swapi-api.alx-tools.com/api/vehicles/36/',
+      'https://swapi-api.alx-tools.com/api/vehicles/37/',
+      'https://swapi-api.alx-tools.com/api/vehicles/38/',
+      'https://swapi-api.alx-tools.com/api/vehicles/42/'
+    ],
+    species: [
+      'https://swapi-api.alx-tools.com/api/species/1/',
+      'https://swapi-api.alx-tools.com/api/species/2/',
+      'https://swapi-api.alx-tools.com/api/species/6/',
+      'https://swapi-api.alx-tools.com/api/species/11/',
+      'https://swapi-api.alx-tools.com/api/species/12/',
+      'https://swapi-api.alx-tools.com/api/species/13/',
+      'https://swapi-api.alx-tools.com/api/species/14/',
+      'https://swapi-api.alx-tools.com/api/species/15/',
+      'https://swapi-api.alx-tools.com/api/species/16/',
+      'https://swapi-api.alx-tools.com/api/species/17/',
+      'https://swapi-api.alx-tools.com/api/species/18/',
+      'https://swapi-api.alx-tools.com/api/species/19/',
+      'https://swapi-api.alx-tools.com/api/species/20/',
+      'https://swapi-api.alx-tools.com/api/species/21/',
+      'https://swapi-api.alx-tools.com/api/species/22/',
+      'https://swapi-api.alx-tools.com/api/species/23/',
+      'https://swapi-api.alx-tools.com/api/species/24/',
+      'https://swapi-api.alx-tools.com/api/species/25/',
+      'https://swapi-api.alx-tools.com/api/species/26/',
+      'https://swapi-api.alx-tools.com/api/species/27/'
+    ],
+    created: '2014-12-19T16:52:55.740000Z',
+    edited: '2014-12-20T10:54:07.216000Z',
+    url: 'https://swapi-api.alx-tools.com/api/films/4/'
+  },
+  {
+    title: 'Attack of the Clones',
+    episode_id: 2,
+    opening_crawl: 'There is unrest in the Galactic\r\n' +
+      'Senate. Several thousand solar\r\n' +
+      'systems have declared their\r\n' +
+      'intentions to leave the Republic.\r\n' +
+      '\r\n' +
+      'This separatist movement,\r\n' +
+      'under the leadership of the\r\n' +
+      'mysterious Count Dooku, has\r\n' +
+      'made it difficult for the limited\r\n' +
+      'number of Jedi Knights to maintain \r\n' +
+      'peace and order in the galaxy.\r\n' +
+      '\r\n' +
+      'Senator Amidala, the former\r\n' +
+      'Queen of Naboo, is returning\r\n' +
+      'to the Galactic Senate to vote\r\n' +
+      'on the critical issue of creating\r\n' +
+      'an ARMY OF THE REPUBLIC\r\n' +
+      'to assist the overwhelmed\r\n' +
+      'Jedi....',
+    director: 'George Lucas',
+    producer: 'Rick McCallum',
+    release_date: '2002-05-16',
+    characters: [
+      'https://swapi-api.alx-tools.com/api/people/2/',
+      'https://swapi-api.alx-tools.com/api/people/3/',
+      'https://swapi-api.alx-tools.com/api/people/6/',
+      'https://swapi-api.alx-tools.com/api/people/7/',
+      'https://swapi-api.alx-tools.com/api/people/10/',
+      'https://swapi-api.alx-tools.com/api/people/11/',
+      'https://swapi-api.alx-tools.com/api/people/20/',
+      'https://swapi-api.alx-tools.com/api/people/21/',
+      'https://swapi-api.alx-tools.com/api/people/22/',
+      'https://swapi-api.alx-tools.com/api/people/33/',
+      'https://swapi-api.alx-tools.com/api/people/35/',
+      'https://swapi-api.alx-tools.com/api/people/36/',
+      'https://swapi-api.alx-tools.com/api/people/40/',
+      'https://swapi-api.alx-tools.com/api/people/43/',
+      'https://swapi-api.alx-tools.com/api/people/46/',
+      'https://swapi-api.alx-tools.com/api/people/51/',
+      'https://swapi-api.alx-tools.com/api/people/52/',
+      'https://swapi-api.alx-tools.com/api/people/53/',
+      'https://swapi-api.alx-tools.com/api/people/58/',
+      'https://swapi-api.alx-tools.com/api/people/59/',
+      'https://swapi-api.alx-tools.com/api/people/60/',
+      'https://swapi-api.alx-tools.com/api/people/61/',
+      'https://swapi-api.alx-tools.com/api/people/62/',
+      'https://swapi-api.alx-tools.com/api/people/63/',
+      'https://swapi-api.alx-tools.com/api/people/64/',
+      'https://swapi-api.alx-tools.com/api/people/65/',
+      'https://swapi-api.alx-tools.com/api/people/66/',
+      'https://swapi-api.alx-tools.com/api/people/67/',
+      'https://swapi-api.alx-tools.com/api/people/68/',
+      'https://swapi-api.alx-tools.com/api/people/69/',
+      'https://swapi-api.alx-tools.com/api/people/70/',
+      'https://swapi-api.alx-tools.com/api/people/71/',
+      'https://swapi-api.alx-tools.com/api/people/72/',
+      'https://swapi-api.alx-tools.com/api/people/73/',
+      'https://swapi-api.alx-tools.com/api/people/74/',
+      'https://swapi-api.alx-tools.com/api/people/75/',
+      'https://swapi-api.alx-tools.com/api/people/76/',
+      'https://swapi-api.alx-tools.com/api/people/77/',
+      'https://swapi-api.alx-tools.com/api/people/78/',
+      'https://swapi-api.alx-tools.com/api/people/82/'
+    ],
+    planets: [
+      'https://swapi-api.alx-tools.com/api/planets/1/',
+      'https://swapi-api.alx-tools.com/api/planets/8/',
+      'https://swapi-api.alx-tools.com/api/planets/9/',
+      'https://swapi-api.alx-tools.com/api/planets/10/',
+      'https://swapi-api.alx-tools.com/api/planets/11/'
+    ],
+    starships: [
+      'https://swapi-api.alx-tools.com/api/starships/21/',
+      'https://swapi-api.alx-tools.com/api/starships/32/',
+      'https://swapi-api.alx-tools.com/api/starships/39/',
+      'https://swapi-api.alx-tools.com/api/starships/43/',
+      'https://swapi-api.alx-tools.com/api/starships/47/',
+      'https://swapi-api.alx-tools.com/api/starships/48/',
+      'https://swapi-api.alx-tools.com/api/starships/49/',
+      'https://swapi-api.alx-tools.com/api/starships/52/',
+      'https://swapi-api.alx-tools.com/api/starships/58/'
+    ],
+    vehicles: [
+      'https://swapi-api.alx-tools.com/api/vehicles/4/',
+      'https://swapi-api.alx-tools.com/api/vehicles/44/',
+      'https://swapi-api.alx-tools.com/api/vehicles/45/',
+      'https://swapi-api.alx-tools.com/api/vehicles/46/',
+      'https://swapi-api.alx-tools.com/api/vehicles/50/',
+      'https://swapi-api.alx-tools.com/api/vehicles/51/',
+      'https://swapi-api.alx-tools.com/api/vehicles/53/',
+      'https://swapi-api.alx-tools.com/api/vehicles/54/',
+      'https://swapi-api.alx-tools.com/api/vehicles/55/',
+      'https://swapi-api.alx-tools.com/api/vehicles/56/',
+      'https://swapi-api.alx-tools.com/api/vehicles/57/'
+    ],
+    species: [
+      'https://swapi-api.alx-tools.com/api/species/1/',
+      'https://swapi-api.alx-tools.com/api/species/2/',
+      'https://swapi-api.alx-tools.com/api/species/6/',
+      'https://swapi-api.alx-tools.com/api/species/12/',
+      'https://swapi-api.alx-tools.com/api/species/13/',
+      'https://swapi-api.alx-tools.com/api/species/15/',
+      'https://swapi-api.alx-tools.com/api/species/28/',
+      'https://swapi-api.alx-tools.com/api/species/29/',
+      'https://swapi-api.alx-tools.com/api/species/30/',
+      'https://swapi-api.alx-tools.com/api/species/31/',
+      'https://swapi-api.alx-tools.com/api/species/32/',
+      'https://swapi-api.alx-tools.com/api/species/33/',
+      'https://swapi-api.alx-tools.com/api/species/34/',
+      'https://swapi-api.alx-tools.com/api/species/35/'
+    ],
+    created: '2014-12-20T10:57:57.886000Z',
+    edited: '2014-12-20T20:18:48.516000Z',
+    url: 'https://swapi-api.alx-tools.com/api/films/5/'
+  },
+  {
+    title: 'Revenge of the Sith',
+    episode_id: 3,
+    opening_crawl: 'War! The Republic is crumbling\r\n' +
+      'under attacks by the ruthless\r\n' +
+      'Sith Lord, Count Dooku.\r\n' +
+      'There are heroes on both sides.\r\n' +
+      'Evil is everywhere.\r\n' +
+      '\r\n' +
+      'In a stunning move, the\r\n' +
+      'fiendish droid leader, General\r\n' +
+      'Grievous, has swept into the\r\n' +
+      'Republic capital and kidnapped\r\n' +
+      'Chancellor Palpatine, leader of\r\n' +
+      'the Galactic Senate.\r\n' +
+      '\r\n' +
+      'As the Separatist Droid Army\r\n' +
+      'attempts to flee the besieged\r\n' +
+      'capital with their valuable\r\n' +
+      'hostage, two Jedi Knights lead a\r\n' +
+      'desperate mission to rescue the\r\n' +
+      'captive Chancellor....',
+    director: 'George Lucas',
+    producer: 'Rick McCallum',
+    release_date: '2005-05-19',
+    characters: [
+      'https://swapi-api.alx-tools.com/api/people/1/',
+      'https://swapi-api.alx-tools.com/api/people/2/',
+      'https://swapi-api.alx-tools.com/api/people/3/',
+      'https://swapi-api.alx-tools.com/api/people/4/',
+      'https://swapi-api.alx-tools.com/api/people/5/',
+      'https://swapi-api.alx-tools.com/api/people/6/',
+      'https://swapi-api.alx-tools.com/api/people/7/',
+      'https://swapi-api.alx-tools.com/api/people/10/',
+      'https://swapi-api.alx-tools.com/api/people/11/',
+      'https://swapi-api.alx-tools.com/api/people/12/',
+      'https://swapi-api.alx-tools.com/api/people/13/',
+      'https://swapi-api.alx-tools.com/api/people/20/',
+      'https://swapi-api.alx-tools.com/api/people/21/',
+      'https://swapi-api.alx-tools.com/api/people/33/',
+      'https://swapi-api.alx-tools.com/api/people/35/',
+      'https://swapi-api.alx-tools.com/api/people/46/',
+      'https://swapi-api.alx-tools.com/api/people/51/',
+      'https://swapi-api.alx-tools.com/api/people/52/',
+      'https://swapi-api.alx-tools.com/api/people/53/',
+      'https://swapi-api.alx-tools.com/api/people/54/',
+      'https://swapi-api.alx-tools.com/api/people/55/',
+      'https://swapi-api.alx-tools.com/api/people/56/',
+      'https://swapi-api.alx-tools.com/api/people/58/',
+      'https://swapi-api.alx-tools.com/api/people/63/',
+      'https://swapi-api.alx-tools.com/api/people/64/',
+      'https://swapi-api.alx-tools.com/api/people/67/',
+      'https://swapi-api.alx-tools.com/api/people/68/',
+      'https://swapi-api.alx-tools.com/api/people/75/',
+      'https://swapi-api.alx-tools.com/api/people/78/',
+      'https://swapi-api.alx-tools.com/api/people/79/',
+      'https://swapi-api.alx-tools.com/api/people/80/',
+      'https://swapi-api.alx-tools.com/api/people/81/',
+      'https://swapi-api.alx-tools.com/api/people/82/',
+      'https://swapi-api.alx-tools.com/api/people/83/'
+    ],
+    planets: [
+      'https://swapi-api.alx-tools.com/api/planets/1/',
+      'https://swapi-api.alx-tools.com/api/planets/2/',
+      'https://swapi-api.alx-tools.com/api/planets/5/',
+      'https://swapi-api.alx-tools.com/api/planets/8/',
+      'https://swapi-api.alx-tools.com/api/planets/9/',
+      'https://swapi-api.alx-tools.com/api/planets/12/',
+      'https://swapi-api.alx-tools.com/api/planets/13/',
+      'https://swapi-api.alx-tools.com/api/planets/14/',
+      'https://swapi-api.alx-tools.com/api/planets/15/',
+      'https://swapi-api.alx-tools.com/api/planets/16/',
+      'https://swapi-api.alx-tools.com/api/planets/17/',
+      'https://swapi-api.alx-tools.com/api/planets/18/',
+      'https://swapi-api.alx-tools.com/api/planets/19/'
+    ],
+    starships: [
+      'https://swapi-api.alx-tools.com/api/starships/2/',
+      'https://swapi-api.alx-tools.com/api/starships/32/',
+      'https://swapi-api.alx-tools.com/api/starships/48/',
+      'https://swapi-api.alx-tools.com/api/starships/59/',
+      'https://swapi-api.alx-tools.com/api/starships/61/',
+      'https://swapi-api.alx-tools.com/api/starships/63/',
+      'https://swapi-api.alx-tools.com/api/starships/64/',
+      'https://swapi-api.alx-tools.com/api/starships/65/',
+      'https://swapi-api.alx-tools.com/api/starships/66/',
+      'https://swapi-api.alx-tools.com/api/starships/68/',
+      'https://swapi-api.alx-tools.com/api/starships/74/',
+      'https://swapi-api.alx-tools.com/api/starships/75/'
+    ],
+    vehicles: [
+      'https://swapi-api.alx-tools.com/api/vehicles/33/',
+      'https://swapi-api.alx-tools.com/api/vehicles/50/',
+      'https://swapi-api.alx-tools.com/api/vehicles/53/',
+      'https://swapi-api.alx-tools.com/api/vehicles/56/',
+      'https://swapi-api.alx-tools.com/api/vehicles/60/',
+      'https://swapi-api.alx-tools.com/api/vehicles/62/',
+      'https://swapi-api.alx-tools.com/api/vehicles/67/',
+      'https://swapi-api.alx-tools.com/api/vehicles/69/',
+      'https://swapi-api.alx-tools.com/api/vehicles/70/',
+      'https://swapi-api.alx-tools.com/api/vehicles/71/',
+      'https://swapi-api.alx-tools.com/api/vehicles/72/',
+      'https://swapi-api.alx-tools.com/api/vehicles/73/',
+      'https://swapi-api.alx-tools.com/api/vehicles/76/'
+    ],
+    species: [
+      'https://swapi-api.alx-tools.com/api/species/1/',
+      'https://swapi-api.alx-tools.com/api/species/2/',
+      'https://swapi-api.alx-tools.com/api/species/3/',
+      'https://swapi-api.alx-tools.com/api/species/6/',
+      'https://swapi-api.alx-tools.com/api/species/15/',
+      'https://swapi-api.alx-tools.com/api/species/19/',
+      'https://swapi-api.alx-tools.com/api/species/20/',
+      'https://swapi-api.alx-tools.com/api/species/23/',
+      'https://swapi-api.alx-tools.com/api/species/24/',
+      'https://swapi-api.alx-tools.com/api/species/25/',
+      'https://swapi-api.alx-tools.com/api/species/26/',
+      'https://swapi-api.alx-tools.com/api/species/27/',
+      'https://swapi-api.alx-tools.com/api/species/28/',
+      'https://swapi-api.alx-tools.com/api/species/29/',
+      'https://swapi-api.alx-tools.com/api/species/30/',
+      'https://swapi-api.alx-tools.com/api/species/33/',
+      'https://swapi-api.alx-tools.com/api/species/34/',
+      'https://swapi-api.alx-tools.com/api/species/35/',
+      'https://swapi-api.alx-tools.com/api/species/36/',
+      'https://swapi-api.alx-tools.com/api/species/37/'
+    ],
+    created: '2014-12-20T18:49:38.403000Z',
+    edited: '2014-12-20T20:47:52.073000Z',
+    url: 'https://swapi-api.alx-tools.com/api/films/6/'
+  },
+  {
+    title: 'The Force Awakens',
+    episode_id: 7,
+    opening_crawl: 'Luke Skywalker has vanished.\r\n' +
+      'In his absence, the sinister\r\n' +
+      'FIRST ORDER has risen from\r\n' +
+      'the ashes of the Empire\r\n' +
+      'and will not rest until\r\n' +
+      'Skywalker, the last Jedi,\r\n' +
+      'has been destroyed.\r\n' +
+      ' \r\n' +
+      'With the support of the\r\n' +
+      'REPUBLIC, General Leia Organa\r\n' +
+      'leads a brave RESISTANCE.\r\n' +
+      'She is desperate to find her\r\n' +
+      'brother Luke and gain his\r\n' +
+      'help in restoring peace and\r\n' +
+      'justice to the galaxy.\r\n' +
+      ' \r\n' +
+      'Leia has sent her most daring\r\n' +
+      'pilot on a secret mission\r\n' +
+      'to Jakku, where an old ally\r\n' +
+      'has discovered a clue to\r\n' +
+      "Luke's whereabouts....",
+    director: 'J. J. Abrams',
+    producer: 'Kathleen Kennedy, J. J. Abrams, Bryan Burk',
+    release_date: '2015-12-11',
+    characters: [
+      'https://swapi-api.alx-tools.com/api/people/1/',
+      'https://swapi-api.alx-tools.com/api/people/3/',
+      'https://swapi-api.alx-tools.com/api/people/5/',
+      'https://swapi-api.alx-tools.com/api/people/13/',
+      'https://swapi-api.alx-tools.com/api/people/14/',
+      'https://swapi-api.alx-tools.com/api/people/27/',
+      'https://swapi-api.alx-tools.com/api/people/84/',
+      'https://swapi-api.alx-tools.com/api/people/85/',
+      'https://swapi-api.alx-tools.com/api/people/86/',
+      'https://swapi-api.alx-tools.com/api/people/87/',
+      'https://swapi-api.alx-tools.com/api/people/88/'
+    ],
+    planets: [ 'https://swapi-api.alx-tools.com/api/planets/61/' ],
+    starships: [ 'https://swapi-api.alx-tools.com/api/starships/10/' ],
+    vehicles: [],
+    species: [
+      'https://swapi-api.alx-tools.com/api/species/1/',
+      'https://swapi-api.alx-tools.com/api/species/2/',
+      'https://swapi-api.alx-tools.com/api/species/3/'
+    ],
+    created: '2015-04-17T06:51:30.504780Z',
+    edited: '2015-12-17T14:31:47.617768Z',
+    url: 'https://swapi-api.alx-tools.com/api/films/7/'
+  }
+]
