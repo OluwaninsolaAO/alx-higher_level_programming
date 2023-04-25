@@ -11,6 +11,7 @@ const target = `https://swapi-api.alx-tools.com/api/people/${id}/`;
 request(process.argv[2], function (error, response, body) {
   if (error) {
     console.log(error);
+    process.exit();
   } else if (response.statusCode !== 200) {
     process.exit();
   }
