@@ -6,7 +6,6 @@ if (process.argv.length !== 3) {
   process.exit();
 }
 const id = 18;
-const target = `https://swapi-api.alx-tools.com/api/people/${id}/`;
 
 request(process.argv[2], function (error, response, body) {
   if (error) {
@@ -20,8 +19,10 @@ request(process.argv[2], function (error, response, body) {
   const resp = JSON.parse(body);
   const results = resp.results;
   for (const episode of results) {
-    if (episode.characters.includes(target)) {
-      count++;
+    for (const character of episode.characters) {
+      if (character.indexOf(id) !== -1) {
+        count++;
+      }
     }
   }
   console.log(count);
