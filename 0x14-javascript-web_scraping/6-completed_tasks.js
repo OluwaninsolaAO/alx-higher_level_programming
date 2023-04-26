@@ -16,10 +16,10 @@ request(url, function (error, response, body) {
   } else if (response.statusCode === 200) {
     const todos = JSON.parse(body);
     for (const todo of todos) {
-      if (result[todo.userId] === undefined) {
-        result[todo.userId] = 0;
-      }
       if (todo.completed) {
+        if (result[todo.userId] === undefined) {
+          result[todo.userId] = 0;
+        }
         result[todo.userId] += 1;
       }
     }
