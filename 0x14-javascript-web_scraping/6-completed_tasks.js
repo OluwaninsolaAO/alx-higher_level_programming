@@ -12,8 +12,8 @@ request(url, function (error, response, body) {
   const result = {};
 
   if (error) {
-    process.exit();
-  } else {
+    console.log(error);
+  } else if (response.statusCode === 200) {
     const todos = JSON.parse(body);
     for (const todo of todos) {
       if (result[todo.userId] === undefined) {
@@ -23,7 +23,6 @@ request(url, function (error, response, body) {
         result[todo.userId] += 1;
       }
     }
-
     console.log(result);
   }
 });
