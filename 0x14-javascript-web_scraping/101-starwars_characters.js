@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-const request = require("request");
+const request = require('request');
 
 if (process.argv.length !== 3) {
   process.exit();
